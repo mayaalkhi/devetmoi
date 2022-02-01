@@ -1,0 +1,221 @@
+body {
+font-family: 'Roboto', sans-serif;   
+width: 80%; 
+}
+
+*{
+text-decoration: none; 
+box-sizing: border-box;
+margin: auto;
+}
+
+.logomenu{
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding-right: 20px;
+}
+
+.logolong {
+width: 100%;
+height: auto;
+}
+
+.logolong img{
+
+/* margin-left: auto;
+margin-right: auto; */
+
+height: auto;
+}
+   
+.menu ul{
+display: inline-flex;
+column-gap: 30px;
+list-style-type: none;
+}
+
+.menu {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.entete {
+display: flex;
+background-image: url(backgroung_image.jpg);
+/* align-items: center;
+justify-content: center; */
+flex-direction: column;
+width: 100%;
+height: 700px;
+/* text-align: center;
+vertical-align: middle; */
+}
+
+.logo1 {
+width: 25%; 
+height: 70px;  
+/* align-items: center;
+justify-content: center;  */
+object-fit: cover;
+margin-bottom: 10px;
+
+} 
+
+.logo1 img {
+width: 100px;
+height: 90px;
+object-fit: cover;
+
+}
+
+.nomagence1 {
+display: flex;
+color: white;
+font-size: 60px;
+margin-top: 10px;
+}
+
+.intro {
+display: flex;
+text-align: center;
+width: 600px;
+margin: 40px auto;
+}
+
+p {
+font-size: 18px;
+}
+
+.thematik {
+display: flex;
+flex-direction: row;
+width: 80%;
+height: 200px;
+margin: auto;
+justify-content: space-between;
+/* background-color: rgb(182, 35, 126); */
+}
+
+/*.icone1 {
+width: 50%;
+height: 50%;
+} */
+img {
+width: 35%;
+/* object-fit: cover; */
+}
+
+.theme {
+display: block;
+width: 600px;
+height: 400px;
+/* background-color: salmon; */
+text-align: center;
+vertical-align: middle;
+/* padding-top: 50px; */
+}
+
+.theme1 {
+    display: block;
+    /* width: 600px;
+    height: 400px; */
+    /* background-color: rgb(75, 31, 177); */
+    text-align: center;
+    vertical-align: middle;
+    /* padding-top: 50px; */
+    }
+
+.txtheme1, .txtheme2 {
+display: flex;
+font-size: 11px;
+width: 225px;
+/* background-color: thistle; */
+margin: auto;
+padding-right: 30px;
+padding-top: 10px;
+}
+.txtheme3{
+font-size: 11px;
+width: 125px;
+padding-top: 10px;
+/* background-color: rgb(43, 34, 124); */
+}
+
+.illus {
+    padding-top: 20px;
+}
+
+.citation {
+width: 500px;
+margin: auto;
+text-align: center;
+padding-top: 60px;
+}
+
+.signature {
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+footer {
+    display: block;
+    background-color: #60339c;
+    width: 100%;
+    height: auto; 
+}
+
+.TTRH3 {
+    padding-top: 20px;
+}
+.nomagence2 {
+    display: flex;
+    font-size: 11px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+     width: 100%;
+     padding-top: 20px;
+
+}
+
+.cita {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icones {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    color: #c0aed7;
+    font-size: 25px;
+    /* width: 100%; */
+    padding: 30px;
+    margin: auto;
+    width: 25%;
+   
+}
+
+.menufooter {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    color: white;
+}
+
+.adresse li {
+    list-style-type: none;
+    }
+
+.accesrapide, .apropos, .coordonnees {
+    color: #c0aed7;
+    padding-bottom: 30px;
+       }
+
+.colorfont {
+    color:white;
+}
